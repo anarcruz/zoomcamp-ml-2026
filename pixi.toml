@@ -1,0 +1,16 @@
+[workspace]
+authors = ["anarcruz <ana.rita.costa.cruz@gmail.com>"]
+channels = ["conda-forge"]
+name = "zoomcamp-ml-2026"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+numpy = ">=2.5.3,<3"
+pandas = ">=3.0.6,<4"
+scikit-learn = ">=1.9.1,<2"
+seaborn = ">=0.13.2,<0.14"
+jupyter = ">=1.1.1,<2"
+ipykernel = ">=7.3.0,<8"
