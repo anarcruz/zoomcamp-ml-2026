@@ -17,6 +17,11 @@ uv run python smoke_test.py
 uv run uvicorn predict:app --host 0.0.0.0 --port 9696
 ```
 
+or in the last step:
+```bash
+uv run python -m uvicorn predict:app --host 0.0.0.0 --port 9696
+```
+
 In another terminal:
 
 ```bash
